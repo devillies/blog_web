@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #2ec1ac;
+	color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	display: flex;
+	z-index: 2;
+}
+
+.header-title {
+	text-align: left;
+	color: white;
+	margin: 14px;
+	font-size: 20px;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	display: flex;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+a:hover {
+	color: black;
+}
+
+#jumbotron {
+	background-color: #2ec1ac;
+	padding: 50px 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+#jumbotron h1 {
+	font-size: 3rem;
+}
+#jumbotron img {
+	width: 300px;
+	height: 300px;
+}
+
+#jumbotron h3 {
+	color: white;
+	font-size: 1.2rem;
+	text-align: center;
+}
+.img-hover {
+	border-radius: 15px;
+}
+.navbar {
+	overflow: hidden;
+	background-color: #2ec1ac;
+	display: flex;
+	align-items: center;
+}
+
+.navbar a {
+	font-size: 16px;
+	color: whitesmoke;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* .dropdown {
+	overflow: hidden;
+} */
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: gainsboro;
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+}
+
+.dropdown:hover .dropdown-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.dropdown-content a:hover {
+	background-color: #740;
+}
+
+section {
+	margin: 2rem 0 0 0;
+}
+
+.video-wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.collection-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.collection-video {
+	text-align: center;
+}
+
+.collection-audio {
+	text-align: center;
+}
+.container {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	/* padding: 0 30% 0 30%; */
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3%;
+	background-color: gainsboro;
+	border-radius: 10px;
+	width: 15rem;
+	height: 16rem;
+	text-align: center;
+	box-shadow: 5px 5px 10px rgb(177, 169, 169);
+}
+
+.item img {
+	width: 12rem;
+	height: 12rem;
+}
+
+.name {
+	margin: 0;
+	font-size: 36px;
+}
+
+.company {
+	font-size: 20px;
+	margin-top: 3px;
+}
+
+.close {
+	text-decoration: none;
+	color: black;
+	position: relative;
+	bottom: 90%;
+	left: 45%;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.close:hover {
+	color: red;
+	cursor: pointer;
+}

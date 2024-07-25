@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Devillies Blog</h1>
+        <nav>
+            <div class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <div class="dropdown">
+                    <a href="#">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="#content">Content</a>
+                        <a href="#collection">Collection</a>
+                        <a href="#card">Card</a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="jumbotron">
+            <div>
+                <h1>Welcome to my Blog</h1>
+                <h3>
+                    Website created by : @devillies
+                </h3>
+
+            </div>
+            <div>
+                <img src="./assets/18058014_1635912326437418_1675364734027074307_n.jpg" class="img-hover"
+                    alt="illustration">
+            </div>
+        </section>
+
+        <section id="content">
+            <h1 style="text-align: center;margin-bottom: 3rem;">Nujabes Video</h1>
+            <div class="video-wrapper">
+
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/qYcoJpqCha4" title="aruarian dance"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/2wK27xW4OFI"
+                    title="Nujabes - reflection eternal [Official Audio]" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+        <section id="collection">
+            <div class="collection-wrapper">
+                <div class="collection-video">
+
+                    <h1>Video</h1>
+                    <video width="600" height="300" controls>
+                        <source src="./assets/Nightclass Reunion.mp4">
+                    </video>
+                </div>
+                <div class="collection-audio">
+
+                    <h1>Music</h1>
+                    <audio id="bgMusic" controls>
+                        <source src="./assets/3_03_PM_220223.mp3">
+                    </audio>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="card">
+            <div class="container">
+                <div class="item">
+                    <img src="./assets/IMG_20151001_115051_HDR.jpg" alt="Elon Musk" width="90px" height="auto">
+                    <h5 class="name"> Barn Owl</h5>
+                    <p class=" company">Tasty Milkshake</p>
+                    <a href="" class="close">x</a>
+                </div>
+                <div class="item">
+                    <img src="./assets/IMG20211111062057.jpg" alt="Jeff Bezos" width="90px" height="auto">
+                    <h5 class="name">Tumbira</h5>
+                    <p class=" company">My Ancestral Home</p>
+                    <a href="" class="close">x</a>
+                </div>
+                <div class="item">
+                    <img src="./assets/IMG20211104165331.jpg" alt="" width="90px" height="auto">
+                    <h5 class="name">Tomohon</h5>
+                    <p class="company">Smoke On a Mountain</p>
+                    <a href="" class="close">x</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
